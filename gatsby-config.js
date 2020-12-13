@@ -10,5 +10,11 @@ module.exports = {
         path: `${__dirname}/src/assets/images`,
       },
     },
+    {
+      resolve: 'gatsby-source-graphcms',
+      options: {
+        endpoint: 'https://api-us-west-2.graphcms.com/v2/ckimksot2ex6d01xy637h5wud/master'
+      }
+    }
   ],
 }
